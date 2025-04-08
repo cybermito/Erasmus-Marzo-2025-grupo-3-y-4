@@ -13,4 +13,6 @@ Subirlo a github (Publish)
 git push origin main
 
 Sincronizar cambios
+git pull origin main //Descargar desde repositorio remoto
+git push origin main //Subir al repositorio remoto
 
