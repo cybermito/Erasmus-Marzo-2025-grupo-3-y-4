@@ -16,3 +16,4 @@ Sincronizar cambios
 git pull origin main //Descargar desde repositorio remoto
 git push origin main //Subir al repositorio remoto
 
+líneas añadidas desde remoto.
