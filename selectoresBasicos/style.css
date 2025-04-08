@@ -1,0 +1,30 @@
+/* Selector universal */
+
+* {
+    background-color: grey;
+    font-style: italic;
+    color: white;
+}
+
+/* Selector de elemento */
+
+header{
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+}
+
+/* Selector de clase */
+
+.subTitulo {
+    background-color: rgb(150, 30, 210);
+    color: whitesmoke;
+}
+
+/* Selector de id */
+
+#description {
+    background-color: goldenrod;
+    color: brown;
+    font-size: 1.2em;
+}

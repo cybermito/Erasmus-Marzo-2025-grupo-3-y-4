@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: monospace;
+    font-size: 16px;
+}
+/* position:fixed; deja el elemento fijo en la posición inicial de la estructura del html*/
+header{
+   /* position:fixed;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: burlywood;
+    z-index: 100;
+
+}
+
+header h1 {
+    width: 30%;
+    margin-left: 5px;
+    
+}
+
+header h1::before{
+    content:"🐐" ;
+}
+
+header nav{
+    width: 70%;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+header nav ul li {
+    margin: 0px 5px;
+}
+
+/* position:relative; */
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+/* .hero figure {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.hero figure img{
+    width: 100%;
+}
+
+.hero .text {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    text-align: center;
+}
+
+.hero .text h2{
+    font-size: 2rem;
+}
+
+.blog {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog article{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+.codingLanguage{
+    width: 100%;
+    background-color: black;
+    color: orangered;
+    margin: 0px;
+    padding: 5px;
+}
+
+.codingLanguage ul {
+    margin: 0px 15px;
+    list-style: circle;
+    padding: 5px;
+}
+
+/* position:sticky; Similar a fixed, hace scroll hasta la posición top, bottom, left or right en la que se convierte en fixed*/
+.codingLanguage ul h3{
+    position: sticky;
+    top: 20px;
+    background-color: orangered;
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

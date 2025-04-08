@@ -1,0 +1,50 @@
+/* pseudoclass */
+
+p:hover {
+    color: red;
+    font-size: 1.2em;
+}
+
+input:focus {
+    padding: 5px;
+    background-color: lightsalmon;
+    font-size: 1.5em;
+    color: grey;
+}
+
+div {
+    width: 100%;
+    background-color: rgb(19, 57, 161);
+    color: white;
+    padding: 5px;
+}
+
+div p:nth-child(3){
+    font-style: italic;
+    font-weight: bold;
+    color: lightcoral;
+}
+
+/* pseudolements */
+
+p::first-letter{
+    color: chocolate;
+    font-size: 1.5em;
+}
+
+p::first-line{
+    color: crimson;
+}
+
+p::before{
+    content: "👉 🇷🇴 " ;
+}
+
+p::after{
+    content: " 💜";
+}
+
+::placeholder{
+    color: lightgrey;
+    padding: 10px;
+}

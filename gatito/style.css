@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    display: flex;
+}
+
+section .card {
+    background-color: lightsalmon;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+section .card figure {
+    width: 100%;
+}
+
+section .card figure img {
+    width: 100%;
+}
+
+section .card h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 5px 0px;
+}
+
+section .card p {
+    font-size: 2em;
+    font-family: monospace;
+    padding: 5px 0px;
+    margin: 10px 0px 5px 0px;
+}
+
+section .card p::first-letter{
+    color: rgb(233, 12, 111);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+

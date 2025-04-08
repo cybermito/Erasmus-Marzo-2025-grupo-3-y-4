@@ -1,0 +1,50 @@
+/* Url documentación Flexbox y CSS-Grid */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+/* MDN DOCS */
+/* Juegos para aprender Flexbox y CSS Grid */
+/* Flexbox: https://flexboxfroggy.com/ */
+/* CSS Grid: https://cssgridgarden.com/ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: greenyellow;
+    margin: 5px;
+    padding: 5px;
+    overflow:hidden;
+    border-radius: 10px;
+    border: 2px dotted green;
+
+}
+
+.container .item:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.container .item:nth-child(3){
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.container .item:nth-child(4){
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+

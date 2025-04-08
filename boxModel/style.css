@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* h1, h2, h3, h4.... display por defecto block */
+h1 {
+    background-color: aquamarine;
+    /* padding: 10px; */
+    padding: 5px 10px 5px 10px; /*top right bottom left*/
+    margin: 10px 5px; /* top-bottom right.left*/
+    border: 2px dotted rgb(24, 26, 22);
+}
+
+/* div display por defecto block */
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(131, 83, 21);
+    color: whitesmoke;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 10px 5px rgb(51, 82, 4);
+}
+
+/* a display por defecto es inline */
+a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: lightcyan;
+    padding: 5px;
+    width: 100px;
+}
+
+/* button display por defecto inline-block */
+
+button {
+    width: 100px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: bisque;
+    border: none;
+}
+
+
+

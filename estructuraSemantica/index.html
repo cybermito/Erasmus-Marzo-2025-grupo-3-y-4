@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Semántica</title>
+    <link rel="stylesheet" href="style.css"> 
+    <!-- Estilos en cabecera
+    <style>
+        p {
+            background-color: lightgoldenrodyellow;
+            color: brown;
+        }
+    </style>
+-->
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="https://images.pexels.com/photos/161154/stained-glass-spiral-circle-pattern-161154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Logo Atigra Makers" width="100px">
+        </figure>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">About us</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <!-- Estilos en línea
+            <h1 style="color:red; background-color: lightcoral;">Mi primera página Web</h1>
+        -->
+            <h1>Mi primera página Web</h1>
+            <h3>Subtítulo de la página web</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quam, earum architecto deleniti molestiae perspiciatis commodi inventore eveniet suscipit! Vitae, illo. Voluptatem quos reiciendis temporibus qui perspiciatis! Molestiae, ipsam harum.
+            </p>
+        </section>
+
+        <section>
+            <h2>Noticias</h2>
+            <article>
+                <h3>Título noticia</h3>
+                <img src="https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Paleta de colores" width="300px">
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iste deleniti eos omnis voluptatibus temporibus earum ipsa, aut labore esse mollitia placeat ad at recusandae eum dicta praesentium corporis vero!
+                </p>
+            </article>
+            <article>
+                <h3>Título noticia 2</h3>
+                <img src="https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Paleta de colores" width="300px">
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, iste deleniti eos omnis voluptatibus temporibus earum ipsa, aut labore esse mollitia placeat ad at recusandae eum dicta praesentium corporis vero!
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Galería de fotos</h2>
+            <figure>
+                <img src="./img/pexels-photo-102127.webp" alt="Paleta de colores" width="200px">
+            </figure>
+            <figure>
+                <img src="./img/pexels-photo-102127.webp" alt="Paleta de colores" width="200px">
+            </figure>
+            <figure>
+                <img src="./img/pexels-photo-102127.webp" alt="Paleta de colores" width="200px">
+            </figure>
+            <figure>
+                <img src="./img/pexels-photo-102127.webp" alt="Paleta de colores" width="200px">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <div class="contact">
+            <form action="submit.js" method="post">
+                <h3>Contacto</h3>
+                <label for="name" >Nombre: </label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email">
+
+                <h4>Lenguaje de programación</h4>
+                <label> 
+                    <input type="checkbox" name="lenguajeProgramacion" value="Python"> Python
+                </label>
+                <label>
+                    <input type="checkbox" name="lenguajeProgramacion" value="javascript"> Javascript
+                </label>
+                <label>
+                    <input type="checkbox" name="lenguajeProgramacion" value="C++"> C++
+                </label>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </div>
+
+        <div class="rrss">
+            <ul>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+                <li>
+                    <a href="#">TikTok</a>
+                </li>
+                <li>
+                    <a href="#">Github</a>
+                </li>
+                <li>
+                    <a href="#">Youtube</a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
